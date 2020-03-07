@@ -11,14 +11,14 @@ import io.cucumber.java.Before;
 
 public class Hooks extends CommonMethods{
 
-//	@Before
+	@Before
 	public void start(Scenario scenario) {
 		System.out.println("Starting scenario "+scenario.getName());
 		setUp();
 		initializeAllPages();
 	}
 	
-//	@After
+	@After
 	public void end(Scenario scenario) {
 		System.out.println("Starting scenario "+scenario.getName());
 		if(scenario.isFailed()) {
