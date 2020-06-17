@@ -2,8 +2,6 @@ package com.hrms.API.steps.practice;
 
 import static io.restassured.RestAssured.given;
 
-import org.junit.Assert;
-
 import com.hrms.utils.API_Constants;
 import com.hrms.utils.CommonMethods;
 
@@ -25,16 +23,25 @@ public class SyntaxAPIAuthenticationSteps extends CommonMethods{
 	private static RequestSpecification request;
 
 	@Given("user generates token")
+//	@Test
 	public void user_generates_token() {
-		request=given().header("Content-Type", "application/json");
+		request=given().header("Content-Type", "application/json").
+				body(readJson(API_Constants.GENERATE_TOKEN_JSON_FILEPATH));
 		
-		response=request.body(readJson(API_Constants.GENERATE_TOKEN_JSON_FILEPATH))
-				.when().post(API_Constants.GENERATE_TOKEN_URI);
+				
+		
+		response=request.when().post(API_Constants.GENERATE_TOKEN_URI);
+		
+		response.prettyPrint();
 		
 		Token= "Bearer "+response.jsonPath().getString("token");
-		System.out.println(Token);
 		
-		Assert.assertEquals(200, response.getStatusCode());
+		System.out.println(Token);
+
+		
+//		Assert.assertEquals(201, response.getStatusCode());
+		
+		response.then().assertThat().statusCode(201);
 		
 	}
 }

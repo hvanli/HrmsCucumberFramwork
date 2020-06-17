@@ -334,7 +334,7 @@ public class CommonMethods extends PageInitializer {
 
 	}
 	
-	public static String jsoonFile;
+	public static String jsonFile;
 	/**
 	 * This methods receives the filename of the jSon file and returns it in String format
 	 * @param fileName
@@ -342,11 +342,11 @@ public class CommonMethods extends PageInitializer {
 	 */
 	public static String readJson(String fileName) {
 		try {
-			jsoonFile = new String(Files.readAllBytes(Paths.get(fileName)));
+			jsonFile = new String(Files.readAllBytes(Paths.get(fileName)));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		return jsoonFile;
+		return jsonFile;
 	}
 
 }

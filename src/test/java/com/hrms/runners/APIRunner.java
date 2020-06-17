@@ -10,8 +10,9 @@ import io.cucumber.junit.CucumberOptions;
 				glue = "com.hrms.API.steps.practice", 
 				dryRun = true,
 //				plugin= {"pretty", "html:target/html/cucumber-default"},
-//				monochrome=true,
-				tags = { "@SyntaxHRMSAPIEndToEnd" })
+				monochrome=true,
+				tags = { "@testApiJune" }
+				)
 
 public class APIRunner {
 }

@@ -1,0 +1,389 @@
+-------------------------------------------------------------------------------
+Test set: com.hrms.runners.SmokeRunner
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 0, Errors: 22, Skipped: 0, Time elapsed: 14.289 s <<< FAILURE! - in com.hrms.runners.SmokeRunner
+Add Employee.Add Employee To HRMS  Time elapsed: 1.973 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 79
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F9A113+1548563]
+	Ordinal0 [0x00F1DDA1+1039777]
+	Ordinal0 [0x00E9E485+517253]
+	Ordinal0 [0x00E2FD34+64820]
+	Ordinal0 [0x00E2C61E+50718]
+	Ordinal0 [0x00E4B797+178071]
+	Ordinal0 [0x00E4B59D+177565]
+	Ordinal0 [0x00E495FB+169467]
+	Ordinal0 [0x00E3160A+71178]
+	Ordinal0 [0x00E32690+75408]
+	Ordinal0 [0x00E32629+75305]
+	Ordinal0 [0x00F371B7+1143223]
+	GetHandleVerifier [0x01032B46+507814]
+	GetHandleVerifier [0x01032864+507076]
+	GetHandleVerifier [0x01039F47+537511]
+	GetHandleVerifier [0x01033402+510050]
+	Ordinal0 [0x00F2F29C+1110684]
+	Ordinal0 [0x00F3938B+1151883]
+	Ordinal0 [0x00F394F3+1152243]
+	Ordinal0 [0x00F383F5+1147893]
+	BaseThreadInitThunk [0x752F0419+25]
+	RtlGetAppContainerNamedObjectPath [0x778066DD+237]
+	RtlGetAppContainerNamedObjectPath [0x778066AD+189]
+
+
+Add Employee.Add Employee To HRMS  Time elapsed: 1.974 s  <<< ERROR!
+java.lang.NullPointerException
+
+Add Employee.Add New Employee To HRMS  Time elapsed: 1.199 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 79
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F9A113+1548563]
+	Ordinal0 [0x00F1DDA1+1039777]
+	Ordinal0 [0x00E9E485+517253]
+	Ordinal0 [0x00E2FD34+64820]
+	Ordinal0 [0x00E2C61E+50718]
+	Ordinal0 [0x00E4B797+178071]
+	Ordinal0 [0x00E4B59D+177565]
+	Ordinal0 [0x00E495FB+169467]
+	Ordinal0 [0x00E3160A+71178]
+	Ordinal0 [0x00E32690+75408]
+	Ordinal0 [0x00E32629+75305]
+	Ordinal0 [0x00F371B7+1143223]
+	GetHandleVerifier [0x01032B46+507814]
+	GetHandleVerifier [0x01032864+507076]
+	GetHandleVerifier [0x01039F47+537511]
+	GetHandleVerifier [0x01033402+510050]
+	Ordinal0 [0x00F2F29C+1110684]
+	Ordinal0 [0x00F3938B+1151883]
+	Ordinal0 [0x00F394F3+1152243]
+	Ordinal0 [0x00F383F5+1147893]
+	BaseThreadInitThunk [0x752F0419+25]
+	RtlGetAppContainerNamedObjectPath [0x778066DD+237]
+	RtlGetAppContainerNamedObjectPath [0x778066AD+189]
+
+
+Add Employee.Add New Employee To HRMS  Time elapsed: 1.199 s  <<< ERROR!
+java.lang.NullPointerException
+
+Add Employee.Add new Employee and Edit Details  Time elapsed: 1.159 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 79
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F9A113+1548563]
+	Ordinal0 [0x00F1DDA1+1039777]
+	Ordinal0 [0x00E9E485+517253]
+	Ordinal0 [0x00E2FD34+64820]
+	Ordinal0 [0x00E2C61E+50718]
+	Ordinal0 [0x00E4B797+178071]
+	Ordinal0 [0x00E4B59D+177565]
+	Ordinal0 [0x00E495FB+169467]
+	Ordinal0 [0x00E3160A+71178]
+	Ordinal0 [0x00E32690+75408]
+	Ordinal0 [0x00E32629+75305]
+	Ordinal0 [0x00F371B7+1143223]
+	GetHandleVerifier [0x01032B46+507814]
+	GetHandleVerifier [0x01032864+507076]
+	GetHandleVerifier [0x01039F47+537511]
+	GetHandleVerifier [0x01033402+510050]
+	Ordinal0 [0x00F2F29C+1110684]
+	Ordinal0 [0x00F3938B+1151883]
+	Ordinal0 [0x00F394F3+1152243]
+	Ordinal0 [0x00F383F5+1147893]
+	BaseThreadInitThunk [0x752F0419+25]
+	RtlGetAppContainerNamedObjectPath [0x778066DD+237]
+	RtlGetAppContainerNamedObjectPath [0x778066AD+189]
+
+
+Add Employee.Add new Employee and Edit Details  Time elapsed: 1.16 s  <<< ERROR!
+java.lang.NullPointerException
+
+Login.Valid Login  Time elapsed: 1.217 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 79
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F9A113+1548563]
+	Ordinal0 [0x00F1DDA1+1039777]
+	Ordinal0 [0x00E9E485+517253]
+	Ordinal0 [0x00E2FD34+64820]
+	Ordinal0 [0x00E2C61E+50718]
+	Ordinal0 [0x00E4B797+178071]
+	Ordinal0 [0x00E4B59D+177565]
+	Ordinal0 [0x00E495FB+169467]
+	Ordinal0 [0x00E3160A+71178]
+	Ordinal0 [0x00E32690+75408]
+	Ordinal0 [0x00E32629+75305]
+	Ordinal0 [0x00F371B7+1143223]
+	GetHandleVerifier [0x01032B46+507814]
+	GetHandleVerifier [0x01032864+507076]
+	GetHandleVerifier [0x01039F47+537511]
+	GetHandleVerifier [0x01033402+510050]
+	Ordinal0 [0x00F2F29C+1110684]
+	Ordinal0 [0x00F3938B+1151883]
+	Ordinal0 [0x00F394F3+1152243]
+	Ordinal0 [0x00F383F5+1147893]
+	BaseThreadInitThunk [0x752F0419+25]
+	RtlGetAppContainerNamedObjectPath [0x778066DD+237]
+	RtlGetAppContainerNamedObjectPath [0x778066AD+189]
+
+
+Login.Valid Login  Time elapsed: 1.217 s  <<< ERROR!
+java.lang.NullPointerException
+
+Login.Invalid Login and message validation  Time elapsed: 1.196 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 79
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F9A113+1548563]
+	Ordinal0 [0x00F1DDA1+1039777]
+	Ordinal0 [0x00E9E485+517253]
+	Ordinal0 [0x00E2FD34+64820]
+	Ordinal0 [0x00E2C61E+50718]
+	Ordinal0 [0x00E4B797+178071]
+	Ordinal0 [0x00E4B59D+177565]
+	Ordinal0 [0x00E495FB+169467]
+	Ordinal0 [0x00E3160A+71178]
+	Ordinal0 [0x00E32690+75408]
+	Ordinal0 [0x00E32629+75305]
+	Ordinal0 [0x00F371B7+1143223]
+	GetHandleVerifier [0x01032B46+507814]
+	GetHandleVerifier [0x01032864+507076]
+	GetHandleVerifier [0x01039F47+537511]
+	GetHandleVerifier [0x01033402+510050]
+	Ordinal0 [0x00F2F29C+1110684]
+	Ordinal0 [0x00F3938B+1151883]
+	Ordinal0 [0x00F394F3+1152243]
+	Ordinal0 [0x00F383F5+1147893]
+	BaseThreadInitThunk [0x752F0419+25]
+	RtlGetAppContainerNamedObjectPath [0x778066DD+237]
+	RtlGetAppContainerNamedObjectPath [0x778066AD+189]
+
+
+Login.Invalid Login and message validation  Time elapsed: 1.196 s  <<< ERROR!
+java.lang.NullPointerException
+
+Login.Invalid Login and message validation  Time elapsed: 1.24 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 79
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F9A113+1548563]
+	Ordinal0 [0x00F1DDA1+1039777]
+	Ordinal0 [0x00E9E485+517253]
+	Ordinal0 [0x00E2FD34+64820]
+	Ordinal0 [0x00E2C61E+50718]
+	Ordinal0 [0x00E4B797+178071]
+	Ordinal0 [0x00E4B59D+177565]
+	Ordinal0 [0x00E495FB+169467]
+	Ordinal0 [0x00E3160A+71178]
+	Ordinal0 [0x00E32690+75408]
+	Ordinal0 [0x00E32629+75305]
+	Ordinal0 [0x00F371B7+1143223]
+	GetHandleVerifier [0x01032B46+507814]
+	GetHandleVerifier [0x01032864+507076]
+	GetHandleVerifier [0x01039F47+537511]
+	GetHandleVerifier [0x01033402+510050]
+	Ordinal0 [0x00F2F29C+1110684]
+	Ordinal0 [0x00F3938B+1151883]
+	Ordinal0 [0x00F394F3+1152243]
+	Ordinal0 [0x00F383F5+1147893]
+	BaseThreadInitThunk [0x752F0419+25]
+	RtlGetAppContainerNamedObjectPath [0x778066DD+237]
+	RtlGetAppContainerNamedObjectPath [0x778066AD+189]
+
+
+Login.Invalid Login and message validation  Time elapsed: 1.24 s  <<< ERROR!
+java.lang.NullPointerException
+
+Login.Invalid Login and message validation  Time elapsed: 1.167 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 79
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F9A113+1548563]
+	Ordinal0 [0x00F1DDA1+1039777]
+	Ordinal0 [0x00E9E485+517253]
+	Ordinal0 [0x00E2FD34+64820]
+	Ordinal0 [0x00E2C61E+50718]
+	Ordinal0 [0x00E4B797+178071]
+	Ordinal0 [0x00E4B59D+177565]
+	Ordinal0 [0x00E495FB+169467]
+	Ordinal0 [0x00E3160A+71178]
+	Ordinal0 [0x00E32690+75408]
+	Ordinal0 [0x00E32629+75305]
+	Ordinal0 [0x00F371B7+1143223]
+	GetHandleVerifier [0x01032B46+507814]
+	GetHandleVerifier [0x01032864+507076]
+	GetHandleVerifier [0x01039F47+537511]
+	GetHandleVerifier [0x01033402+510050]
+	Ordinal0 [0x00F2F29C+1110684]
+	Ordinal0 [0x00F3938B+1151883]
+	Ordinal0 [0x00F394F3+1152243]
+	Ordinal0 [0x00F383F5+1147893]
+	BaseThreadInitThunk [0x752F0419+25]
+	RtlGetAppContainerNamedObjectPath [0x778066DD+237]
+	RtlGetAppContainerNamedObjectPath [0x778066AD+189]
+
+
+Login.Invalid Login and message validation  Time elapsed: 1.167 s  <<< ERROR!
+java.lang.NullPointerException
+
+Login.Invalid Login and message validation  Time elapsed: 1.162 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 79
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F9A113+1548563]
+	Ordinal0 [0x00F1DDA1+1039777]
+	Ordinal0 [0x00E9E485+517253]
+	Ordinal0 [0x00E2FD34+64820]
+	Ordinal0 [0x00E2C61E+50718]
+	Ordinal0 [0x00E4B797+178071]
+	Ordinal0 [0x00E4B59D+177565]
+	Ordinal0 [0x00E495FB+169467]
+	Ordinal0 [0x00E3160A+71178]
+	Ordinal0 [0x00E32690+75408]
+	Ordinal0 [0x00E32629+75305]
+	Ordinal0 [0x00F371B7+1143223]
+	GetHandleVerifier [0x01032B46+507814]
+	GetHandleVerifier [0x01032864+507076]
+	GetHandleVerifier [0x01039F47+537511]
+	GetHandleVerifier [0x01033402+510050]
+	Ordinal0 [0x00F2F29C+1110684]
+	Ordinal0 [0x00F3938B+1151883]
+	Ordinal0 [0x00F394F3+1152243]
+	Ordinal0 [0x00F383F5+1147893]
+	BaseThreadInitThunk [0x752F0419+25]
+	RtlGetAppContainerNamedObjectPath [0x778066DD+237]
+	RtlGetAppContainerNamedObjectPath [0x778066AD+189]
+
+
+Login.Invalid Login and message validation  Time elapsed: 1.162 s  <<< ERROR!
+java.lang.NullPointerException
+
+Report.EMPTY_NAME  Time elapsed: 1.17 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 79
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F9A113+1548563]
+	Ordinal0 [0x00F1DDA1+1039777]
+	Ordinal0 [0x00E9E485+517253]
+	Ordinal0 [0x00E2FD34+64820]
+	Ordinal0 [0x00E2C61E+50718]
+	Ordinal0 [0x00E4B797+178071]
+	Ordinal0 [0x00E4B59D+177565]
+	Ordinal0 [0x00E495FB+169467]
+	Ordinal0 [0x00E3160A+71178]
+	Ordinal0 [0x00E32690+75408]
+	Ordinal0 [0x00E32629+75305]
+	Ordinal0 [0x00F371B7+1143223]
+	GetHandleVerifier [0x01032B46+507814]
+	GetHandleVerifier [0x01032864+507076]
+	GetHandleVerifier [0x01039F47+537511]
+	GetHandleVerifier [0x01033402+510050]
+	Ordinal0 [0x00F2F29C+1110684]
+	Ordinal0 [0x00F3938B+1151883]
+	Ordinal0 [0x00F394F3+1152243]
+	Ordinal0 [0x00F383F5+1147893]
+	BaseThreadInitThunk [0x752F0419+25]
+	RtlGetAppContainerNamedObjectPath [0x778066DD+237]
+	RtlGetAppContainerNamedObjectPath [0x778066AD+189]
+
+
+Report.EMPTY_NAME  Time elapsed: 1.17 s  <<< ERROR!
+java.lang.NullPointerException
+
+Report.EMPTY_NAME  Time elapsed: 1.212 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 79
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F9A113+1548563]
+	Ordinal0 [0x00F1DDA1+1039777]
+	Ordinal0 [0x00E9E485+517253]
+	Ordinal0 [0x00E2FD34+64820]
+	Ordinal0 [0x00E2C61E+50718]
+	Ordinal0 [0x00E4B797+178071]
+	Ordinal0 [0x00E4B59D+177565]
+	Ordinal0 [0x00E495FB+169467]
+	Ordinal0 [0x00E3160A+71178]
+	Ordinal0 [0x00E32690+75408]
+	Ordinal0 [0x00E32629+75305]
+	Ordinal0 [0x00F371B7+1143223]
+	GetHandleVerifier [0x01032B46+507814]
+	GetHandleVerifier [0x01032864+507076]
+	GetHandleVerifier [0x01039F47+537511]
+	GetHandleVerifier [0x01033402+510050]
+	Ordinal0 [0x00F2F29C+1110684]
+	Ordinal0 [0x00F3938B+1151883]
+	Ordinal0 [0x00F394F3+1152243]
+	Ordinal0 [0x00F383F5+1147893]
+	BaseThreadInitThunk [0x752F0419+25]
+	RtlGetAppContainerNamedObjectPath [0x778066DD+237]
+	RtlGetAppContainerNamedObjectPath [0x778066AD+189]
+
+
+Report.EMPTY_NAME  Time elapsed: 1.212 s  <<< ERROR!
+java.lang.NullPointerException
+
+Report.Search for valid report  Time elapsed: 1.16 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 79
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F9A113+1548563]
+	Ordinal0 [0x00F1DDA1+1039777]
+	Ordinal0 [0x00E9E485+517253]
+	Ordinal0 [0x00E2FD34+64820]
+	Ordinal0 [0x00E2C61E+50718]
+	Ordinal0 [0x00E4B797+178071]
+	Ordinal0 [0x00E4B59D+177565]
+	Ordinal0 [0x00E495FB+169467]
+	Ordinal0 [0x00E3160A+71178]
+	Ordinal0 [0x00E32690+75408]
+	Ordinal0 [0x00E32629+75305]
+	Ordinal0 [0x00F371B7+1143223]
+	GetHandleVerifier [0x01032B46+507814]
+	GetHandleVerifier [0x01032864+507076]
+	GetHandleVerifier [0x01039F47+537511]
+	GetHandleVerifier [0x01033402+510050]
+	Ordinal0 [0x00F2F29C+1110684]
+	Ordinal0 [0x00F3938B+1151883]
+	Ordinal0 [0x00F394F3+1152243]
+	Ordinal0 [0x00F383F5+1147893]
+	BaseThreadInitThunk [0x752F0419+25]
+	RtlGetAppContainerNamedObjectPath [0x778066DD+237]
+	RtlGetAppContainerNamedObjectPath [0x778066AD+189]
+
+
+Report.Search for valid report  Time elapsed: 1.16 s  <<< ERROR!
+java.lang.NullPointerException
+
